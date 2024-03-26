@@ -5,96 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>PLAY</title>
+    
 </head>
 <body>
-    <nav>
-      <div class="flex justify-between bg-slate-200 h-14 p-2">
-        <div class="m-2 font-bold text-blue-950 text-lg pl-8 ">RICHFIELD</div>
+  <!-- Navigation -->
+    <nav  >
+      <div class="flex justify-between bg-[#120484] h-14 p-2">
+      
+        <img src="./assets/rich_logo_white.webp" class="h-6 m-2 pl-8" alt="">
         <div class="">
-          <ul class="flex gap-5  ">
+          <ul class="flex gap-5 text-white text-lg   ">
             <li class="hover:text-blue-950 hover:font-bold hover:underline"><a href="#">Home</a></li>
             <li class="hover:text-blue-950 hover:font-bold hover:underline"><a href="#">Program</a></li>
             <li class="hover:text-blue-950 hover:font-bold hover:underline"><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="border border-gray-500 py-2 px-6 rounded-lg hover:bg-blue-800 hover:text-white cursor-pointer">
+        <div class="bg-white py-2 mr-6 px-6 rounded-lg hover:bg-blue-800 hover:text-white cursor-pointer">
           <button class="">Join Us</button>
         </div>
       </div>
     </nav>
-    
-    <div class="flex font-sans">
-        <div class="flex-none w-48 relative">
-          <img src="/cake3d.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+
+    <!-- Hero Section -->
+    <section>
+      <div class="bg-[#120484] h-[40rem] ">
+        <div class="flex m-auto items-center justify-center ml-5 text-white"> 
+
+            <div class="">
+                <div class="flex flex-col gap-2 mb-4" >
+                  <div class="text-lg font-medium">For a better</div>
+                  <div class="text-7xl font-bold">High Quality <br> Education</div>
+                  <div class="text-lg font-medium">Find the right school for your ward</div>
+                </div>
+                <div class="flex gap-4">
+                  <button class="bg-[#F8BC36] md:bg-green-600 lg:bg-red-600 sm:bg-purple-700 p-3 rounded-lg text-sm font-thin">Best <br> International <br> Curriculum</button>
+                  <button class="border border-[#F8BC36] p-2 text-sm rounded-lg text-[#F8BC36]">Best Co-curricullar Activities</button>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/girl_with_bag.png" alt="">
+            </div>
         </div>
-        <form class="flex-auto p-6">
-          <div class="flex flex-wrap">
-            <h1 class="flex-auto text-lg font-semibold text-slate-900">
-              Utility Jacket 
-            </h1>
-            <div class="text-lg font-semibold text-slate-500">
-              $1100.00
-            </div>
-          </div>
-          <div class="w-full flex-none text-sm font-medium text-slate-700 mt-2">
-            In stock
-          </div>
-          <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
-            <div class="space-x-2 flex text-sm">
-              <label>
-                <input class="sr-only peer" name="size" type="radio" value="xs" checked />
-                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
-                  XS
-                </div>
-              </label>
-              <label>
-                <input class="sr-only peer" name="size" type="radio" value="s" />
-                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
-                  S
-                </div>
-              </label>
-              <label>
-                <input class="sr-only peer" name="size" type="radio" value="m" />
-                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
-                  M
-                </div>
-              </label>
-              <label>
-                <input class="sr-only peer" name="size" type="radio" value="l" />
-                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
-                  L
-                </div>
-              </label>
-              <label>
-                <input class="sr-only peer" name="size" type="radio" value="xl" />
-                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
-                  XL
-                </div>
-              </label>
-            </div>
-          </div>
-          <div class="flex space-x-4 mb-6 text-sm font-medium">
-            <div class="flex-auto flex space-x-4">
-              <button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">
-                Buy now
-              </button>
-              <button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="button">
-                Add to bag
-              </button>
-            </div>
-            <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-slate-300 border border-slate-200" type="button" aria-label="Like">
-              <svg width="20" height="20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
-              </svg>
-            </button>
-          </div>
-          <p class="text-sm text-slate-700">
-            Free shipping on all continental US orders.
-          </p>
-        </form>
       </div>
+    </section>
+
+    <section>
+      <div class="justify-center">
+
+        <div >Pre-school | Elementary | College</div>
+      </div>
+    </section>
+    
+   
+     
       
       
 
+
+    <script src="play.js"></script>
 </body>
 </html>
